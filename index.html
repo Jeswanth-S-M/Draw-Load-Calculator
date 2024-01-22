@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draw Load Calculator</title>
+</head>
+<body>
+    <h1>Draw Load Calculator</h1>
+
+    <!-- Add a PNG image -->
+    <img src="image.png" alt="Tube Image" style="max-width: 100%; height: auto;">
+
+    <form id="tubeForm">
+        <!-- Your existing form inputs -->
+
+        <label for="hollowOD">Enter the Hollow Tube OD (in mm):</label>
+        <input type="number" id="hollowOD" name="hollowOD" required>
+
+        <label for="hollowThickness">Enter the Hollow Tube Thickness (in mm):</label>
+        <input type="number" id="hollowThickness" name="hollowThickness" required>
+
+        <label for="drawnOD">Enter the Drawn Tube OD (in mm):</label>
+        <input type="number" id="drawnOD" name="drawnOD" required>
+
+        <label for="drawnThickness">Enter the Drawn Tube Thickness (in mm):</label>
+        <input type="number" id="drawnThickness" name="drawnThickness" required>
+
+        <label for="materialStrength">Enter Material Strength of the Tube:</label>
+        <input type="number" id="materialStrength" name="materialStrength" required>
+
+        <button type="button" onclick="calculateFormula()">Submit</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script>
+        function calculateFormula() {
+            // Your existing JavaScript code
+        }
+    </script>
+</body>
+</html>
